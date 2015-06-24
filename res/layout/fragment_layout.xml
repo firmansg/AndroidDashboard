@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Folder Package -->
+<firman.salatigadev.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  Tombol Berita -->
+    <Button
+        android:id="@+id/btn_berita"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_berita"
+        android:text="Berita" />
+     
+    <!--  Tombol Teman -->
+    <Button
+        android:id="@+id/btn_teman"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_teman"
+        android:text="Teman" />
+     
+    <!--  Tombol Pesan -->
+    <Button
+        android:id="@+id/btn_pesan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_pesan"
+        android:text="Pesan" />
+     
+    <!--  Tombol Tempat -->
+    <Button
+        android:id="@+id/btn_tempat"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_tempat"
+        android:text="Tempat" />
+ 
+    <!--  Tombol Acara -->
+    <Button
+        android:id="@+id/btn_acara"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_acara"
+        android:text="Acara" />
+ 
+    <!--  Tombol Foto -->
+    <Button
+        android:id="@+id/btn_foto"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_foto"
+        android:text="Foto" />
+ 
+</firman.salatigadev.dashboard.DashboardLayout>

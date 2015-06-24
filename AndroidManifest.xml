@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firman.salatigadev.dashboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="firman.salatigadev.dashboard.DashboardActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Berita Activity -->
+        <activity android:name="firman.salatigadev.dashboard.BeritaActivity" ></activity>
+ 
+        <!-- Teman Activity -->
+        <activity android:name="firman.salatigadev.dashboard.TemanActivity" ></activity>
+ 
+        <!-- Pesan Activity -->
+        <activity android:name="firman.salatigadev.dashboard.PesanActivity" ></activity>
+ 
+        <!-- Tempat Activity -->
+        <activity android:name="firman.salatigadev.dashboard.TempatActivity" ></activity>
+ 
+        <!-- Acara Activity -->
+        <activity android:name="firman.salatigadev.dashboard.AcaraActivity" ></activity>
+         
+        <!-- Photos Activity -->
+        <activity android:name="firman.salatigadev.dashboard.FotoActivity" ></activity>
+    
+    </application>
+
+</manifest>
